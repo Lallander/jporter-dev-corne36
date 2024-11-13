@@ -24,6 +24,10 @@
   flavor = "tap-preferred";
 };
 
+&led_strip {
+    chain-length = <24>;
+};
+
 / {
   behaviors {
     hm: homerow_mods {
